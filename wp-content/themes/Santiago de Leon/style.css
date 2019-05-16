@@ -1,0 +1,420 @@
+/*
+ Theme Name:     Santiago de Leon
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+/*Primera seccion Estilo*/
+.image-and-text-container{
+    display: flex;
+    justify-content: center;
+}
+p.text-container{
+    text-align: center;
+}
+img.img-container{
+    margin: 10px auto;
+    display: block;
+}
+
+/*Slider style*/
+
+div.et_pb_slide.et_pb_slide_1.et_pb_bg_layout_dark.et_pb_media_alignment_center.et-pb-active-slide .et_pb_slide_description .et_pb_slide_title {
+    font-size: 30px;
+}
+
+
+.et_pb_text_overlay_wrapper{
+    position: relative;
+    right: 13%;
+    width: 80%;
+    text-align: center;
+}
+/*end Slider style*/
+
+/*Count style*/
+.et_pb_module.et_pb_number_counter.et_pb_number_counter_0.et_pb_bg_layout_light.et_pb_text_align_center.et_pb_with_title.active .percent:before {
+    content: url(http://dev-analiticom.com/santiagodeleon/wp-content/uploads/2019/05/medico-icon.png);
+}
+
+
+.et_pb_module.et_pb_number_counter.et_pb_number_counter_1.et_pb_bg_layout_light.et_pb_text_align_center.et_pb_with_title.active .percent:before{
+    content: url(http://dev-analiticom.com/santiagodeleon/wp-content/uploads/2019/05/paciente-icon.png);
+}
+
+.et_pb_module.et_pb_number_counter.et_pb_number_counter_1.et_pb_bg_layout_light.et_pb_text_align_center.et_pb_with_title.active .percent:before{
+    content: url(http://dev-analiticom.com/santiagodeleon/wp-content/uploads/2019/05/paciente-icon.png);
+}
+
+.et_pb_module.et_pb_number_counter.et_pb_number_counter_2.et_pb_bg_layout_light.et_pb_text_align_center.et_pb_with_title.active .percent:before{
+    content: url(http://dev-analiticom.com/santiagodeleon/wp-content/uploads/2019/05/camas-icon.png);
+}
+
+.et_pb_module.et_pb_number_counter.et_pb_number_counter_3.et_pb_bg_layout_light.et_pb_text_align_center.et_pb_with_title.active .percent:before{
+    content: url(http://dev-analiticom.com/santiagodeleon/wp-content/uploads/2019/05/emergencia-icon.png);
+}
+h3.title{
+    margin-top: 33%;
+}
+
+
+/* .et_pb_circle_counter.et_pb_with_title .percent, .et_pb_number_counter.et_pb_with_title .percent {
+    margin-bottom: 0;
+}
+
+span.percent-value{
+    position: relative;
+    top: 50px;
+} */
+
+/*End Count Style*/
+
+/*Box section*/
+.et_pb_row.et_pb_row_1.et_pb_row_4col{
+    position: relative;
+    bottom: 70px;
+}
+
+div.second-section-box-shadow-css .et_pb_module{
+    border-right: 2px solid #a6a1c0;
+    margin-left: 20px;
+}
+
+
+.et_pb_module.et_pb_text.et_pb_text_3.et_pb_bg_layout_light.et_pb_text_align_left {
+    border-right: none;
+}
+
+.fisrt-container-horario.santiagodeleon {
+    line-height: 7px;
+    color: #513081 !important;
+}
+
+
+.second-container-horario.santiagodeleon,
+.third-container-horario.santiagodeleon,
+.fourth-container-horario.santiagodeleon{
+    color: #513081;
+    line-height: 15px;
+}
+
+
+.et_pb_module.et_pb_text.et_pb_text_0.et_pb_bg_layout_light.et_pb_text_align_left{
+    height: 193px;
+}
+
+
+img.icon-reloj,
+img.icon-pulmones,
+img.icon-telescopio,
+img.icon-telefono
+{
+    margin-bottom: 12px;
+}
+
+h3.title-fisrt-container-horario,
+h2.title-fisrt-container-horario{
+    color: #513081;
+}
+    
+/*End box section*/
+
+/*Footer style*/
+
+p.text-footer-center{
+    position: relative;
+    top: 30px;
+}
+
+.socialMediaTemplateClass{
+    display: none;
+}
+
+img.img-analiticom {
+    width: 17%;
+}
+
+.extra-footer-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #3f337f; 
+}
+
+.santiago-de-leon-logo-container,
+.footer-text-center-container,
+.social-media-container{
+    width: 33.3%;
+    text-align: center;
+    
+}
+
+img.img-santiagodeleon-footer{
+    width: 50%;
+}
+
+#footer-bottom{
+    padding: 40px 0 5px;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+a.social-media-text{
+    color: #3f337f !important;
+    text-decoration: underline;
+} 
+/*End Footer style*/
+
+
+/*Social icon second menu*/
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-97 a{
+    display: none !important;
+}
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-97:after {
+    content: url(http://dev-analiticom.com/santiagodeleon/wp-content/uploads/2019/05/twitter.png);
+}
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-98 a{
+    display: none !important;
+}
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-98:after {
+    content: url(http://dev-analiticom.com/santiagodeleon/wp-content/uploads/2019/05/instagram.png);
+}
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-99 a{
+    display: none;
+}
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-99{
+    content: url(http://dev-analiticom.com/santiagodeleon/wp-content/uploads/2019/05/linkedin.png);
+}
+
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100 a{
+    display: none;
+}
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
+    content: url(http://dev-analiticom.com/santiagodeleon/wp-content/uploads/2019/05/facebook.png);
+}
+/*---------------------------*/
+
+/* Servicios */
+
+/* .et_pb_gutters3 .et_pb_column_1_5 {
+    margin-bottom: 3.628% !important;
+}
+
+.et_pb_gutters3, .et_pb_gutters3.et_pb_row{
+    margin-right: 0.5%;
+} */
+
+
+.et_pb_module.et_pb_image.et_pb_image_1.et_always_center_on_mobile span.et_pb_image_wrap:after {
+    content: "Imágenes";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+}
+
+
+.et_pb_module.et_pb_image.et_pb_image_3.et_always_center_on_mobile span.et_pb_image_wrap:after {
+    content: "Cardiología";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+}
+
+
+.et_pb_module.et_pb_image.et_pb_image_5.et_always_center_on_mobile span.et_pb_image_wrap:after {
+    content: "Laboratorio";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+}
+
+.et_pb_module.et_pb_image.et_pb_image_7.et_always_center_on_mobile span.et_pb_image_wrap:after{
+    content: "Banco de Sangre";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+}
+
+.et_pb_module.et_pb_image.et_pb_image_9.et_always_center_on_mobile span.et_pb_image_wrap:after{
+    content: "Medicina Ocupacional";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+}
+
+.et_pb_module.et_pb_image.et_pb_image_2.et_always_center_on_mobile span.et_pb_image_wrap:after{
+    content: "Examanes Tutoriales";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block; 
+}
+
+
+.et_pb_module.et_pb_image.et_pb_image_4.et_always_center_on_mobile span.et_pb_image_wrap:after{
+    content: "Cirugía";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block; 
+}
+
+.et_pb_module.et_pb_image.et_pb_image_6.et_always_center_on_mobile span.et_pb_image_wrap:after{
+    content: "Medicina Nuclear";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block; 
+}
+
+.et_pb_module.et_pb_image.et_pb_image_8.et_always_center_on_mobile span.et_pb_image_wrap:after{
+    content: "APS";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block; 
+}
+
+
+.et_pb_module.et_pb_image.et_pb_image_10.et_always_center_on_mobile span.et_pb_image_wrap:after{
+    content: "Emergencias";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block; 
+}
+
+/* Responsive */
+
+@media screen and (max-width: 991px){
+
+    div.second-section-box-shadow-css .et_pb_module {
+        border-right: none;
+        margin-left: 20px;
+    }
+
+    .et_pb_row.et_pb_row_1.second-section-box-shadow-css.et_pb_row_4col{
+        padding: 30px 45px 30px 45px;
+    }
+
+    .et_pb_module.et_pb_text.et_pb_text_0.et_pb_bg_layout_light.et_pb_text_align_left{
+        margin: 0;
+    }
+
+
+    .et_pb_column.et_pb_column_1_4.et_pb_column_4.et_pb_css_mix_blend_mode_passthrough{
+        border-bottom: none;
+    }
+
+    .et_pb_row_2.et_pb_row {
+        padding: 0px 30px 0px 30px !important;
+    }
+
+    .image-and-text-container {
+        display: contents;
+    }
+
+    .et_pb_row.et_pb_row_6.et_pb_row_4col{
+        padding: 0px 0px 90px 0px;
+    }
+
+    .et_pb_column.et_pb_column_1_4.et_pb_column_10.et_pb_css_mix_blend_mode_passthrough,
+    .et_pb_column.et_pb_column_1_4.et_pb_column_12.et_pb_css_mix_blend_mode_passthrough{
+        margin: 0 0 100px 0px !important;
+    }
+
+
+    .extra-footer-container {
+        display: block;
+        width: 100%;
+        color: #3f337f;
+    }
+
+    .santiago-de-leon-logo-container, .footer-text-center-container, .social-media-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .et_pb_column.et_pb_column_4_4.et_pb_column_18.et_pb_css_mix_blend_mode_passthrough.et-last-child{
+        margin: 60px 0px 0px 0px;
+    }
+    
+
+    .mobile_menu_bar:before{
+        color: #513081;
+    }
+
+    .et_mobile_menu{
+        border-top: 3px solid #513081;
+    }
+
+
+    p.social-media-text{
+        margin-bottom: 50px;
+    }
+
+    .et_pb_column.et_pb_column_1_4.et_pb_column_9.et_pb_css_mix_blend_mode_passthrough{
+        margin-bottom: 50px !important;
+    }
+
+    .et_pb_column.et_pb_column_1_4.et_pb_column_11.et_pb_css_mix_blend_mode_passthrough{
+        margin-bottom: 50px !important;
+    }
+
+    .et_pb_slider.et_pb_module .et_pb_slides .et_pb_slide_description h2.et_pb_slide_title {
+        font-size: 35px;
+    }
+
+}
+
+
+.et_pb_row_3.et_pb_row{
+    margin-left: auto !important;
+}
+
+
+.et_pb_gutters1 .et_pb_column_1_5 .et_pb_module, .et_pb_gutters1.et_pb_row .et_pb_column_1_5 .et_pb_module {
+    margin-bottom: 10px;
+}
+
+
+.et_pb_row_4 {
+    background-color: rgba(81, 48, 129, 0.50) !important;
+}
