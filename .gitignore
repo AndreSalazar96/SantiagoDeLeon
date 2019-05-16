@@ -10,6 +10,8 @@ wp-content/uploads/
 wp-content/mu-plugins/
 wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
+wp-content/plugins/duplicator
+wp-content/plugins/wp-sync-db-master
 
 /.htaccess
 /license.txt
