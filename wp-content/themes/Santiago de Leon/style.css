@@ -464,7 +464,7 @@ body.error404 header#main-header{
 }
 
 body.error404 div#main-content{
-    background-image: url(http://localhost/SantiagoDeLeon/wp-content/uploads/2019/05/slide.jpg);
+    background-image: url(http://dev-analiticom.com/santiagodeleon/wp-content/uploads/2019/05/slide.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
