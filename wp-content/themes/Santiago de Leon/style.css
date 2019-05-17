@@ -140,6 +140,7 @@ p.text-footer-center{
 
 img.img-analiticom {
     width: 17%;
+    cursor: pointer;
 }
 
 .extra-footer-container{
@@ -179,6 +180,7 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-97 a{
 }
 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-97:after {
     content: url(http://dev-analiticom.com/santiagodeleon/wp-content/uploads/2019/05/twitter.png);
+    cursor: pointer;
 }
 
 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-98 a{
@@ -186,6 +188,7 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-98 a{
 }
 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-98:after {
     content: url(http://dev-analiticom.com/santiagodeleon/wp-content/uploads/2019/05/instagram.png);
+    cursor: pointer;
 }
 
 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-99 a{
@@ -194,6 +197,7 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-99 a{
 
 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-99{
     content: url(http://dev-analiticom.com/santiagodeleon/wp-content/uploads/2019/05/linkedin.png);
+    cursor: pointer;
 }
 
 
@@ -203,6 +207,7 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100 a{
 
 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
     content: url(http://dev-analiticom.com/santiagodeleon/wp-content/uploads/2019/05/facebook.png);
+    cursor: pointer;
 }
 /*---------------------------*/
 
@@ -402,6 +407,31 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
         font-size: 35px;
     }
 
+    /*404 responsive*/
+    h1.textNumber404{
+        font-size: 150px !important;
+        color: #fff;
+    }
+
+    p.text-after-404-number {
+        font-size: 30px !important;
+        color: #fff;
+        line-height: 30px;
+        margin-top: 15%;
+    }
+
+    button.comeback404 {
+        border: none !important;
+        background-color: #fff0;
+        margin-top: 20% !important;
+        cursor: pointer;
+        transition: 0.5s;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+        transition-delay: 0s;
+    }
+
 }
 
 
@@ -417,4 +447,87 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
 
 .et_pb_row_4 {
     background-color: rgba(81, 48, 129, 0.50) !important;
+}
+
+
+.et_pb_slider_with_text_overlay .et_pb_text_overlay_wrapper {
+    padding: 50px 30px 50px 30px !important;
+    border-radius: 3px;
+}
+
+/*404 Page style*/
+#main-content .container:before,
+div#sidebar,
+body.error404 div#top-header,
+body.error404 header#main-header{
+    display: none;
+}
+
+body.error404 div#main-content{
+    background-image: url(http://localhost/SantiagoDeLeon/wp-content/uploads/2019/05/slide.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.error404 div#main-content:after {
+    background-color: #000;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.48);
+    z-index: 1;
+}
+
+div#main-content div.container{
+    z-index: 10;
+}
+
+html.js{
+    margin: 0 !important;
+}
+
+body.error404{
+    overflow: hidden;
+}
+
+body.error404 div#page-container{
+    padding: 0 !important;
+}
+
+.et_right_sidebar #left-area {
+    float: initial !important;
+    padding-right: 0% !important;
+}
+
+#left-area {
+    width: 100% !important;
+    padding-bottom: 23px;
+    text-align: center;
+}
+
+
+button.comeback404{
+    border: none !important;
+    background-color: #fff0;
+    margin-top: 2%;
+    cursor: pointer;
+    transition: 0.5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transition-delay: 0s;
+}
+
+h1.textNumber404{
+    font-size: 300px;
+    color: #fff;
+} 
+
+p.text-after-404-number{
+    font-size: 30px;
+    color: #fff;
+    line-height: 30px;
 }
