@@ -173,14 +173,26 @@ a.social-media-text{
 /*End Footer style*/
 
 
-/*Social icon second menu*/
+/*Menu style*/
+#top-header .container {
+    padding-top: 0em !important;
+    font-weight: 600;
+}
 
+body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header, body.admin-bar.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header{
+    top: 59px !important;
+}
+/*----------*/
+
+/*Social icon second menu*/
 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-97 a{
     display: none !important;
 }
 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-97:after {
     content: url(http://dev-analiticom.com/santiagodeleon/wp-content/uploads/2019/05/twitter.png);
     cursor: pointer;
+    top: 5px;
+    position: relative;
 }
 
 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-98 a{
@@ -189,6 +201,8 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-98 a{
 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-98:after {
     content: url(http://dev-analiticom.com/santiagodeleon/wp-content/uploads/2019/05/instagram.png);
     cursor: pointer;
+    top: 5px;
+    position: relative;
 }
 
 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-99 a{
@@ -198,6 +212,8 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-99 a{
 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-99{
     content: url(http://dev-analiticom.com/santiagodeleon/wp-content/uploads/2019/05/linkedin.png);
     cursor: pointer;
+    top: 5px;
+    position: relative;
 }
 
 
@@ -208,6 +224,8 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100 a{
 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
     content: url(http://dev-analiticom.com/santiagodeleon/wp-content/uploads/2019/05/facebook.png);
     cursor: pointer;
+    top: 5px;
+    position: relative;
 }
 /*---------------------------*/
 
