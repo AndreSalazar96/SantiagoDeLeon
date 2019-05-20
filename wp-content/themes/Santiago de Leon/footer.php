@@ -51,7 +51,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                     </div>	<!-- .container -->
                     <div class="extra-footer-container">
                         <div class="santiago-de-leon-logo-container">
-                            <img src="http://dev-analiticom.com/santiagodeleon/wp-content/uploads/2019/05/logo-horizontal.png" alt="" class="img-santiagodeleon-footer">
+                            <img src="http://localhost/SantiagoDeLeon/wp-content/uploads/2019/05/logo-footer.png" alt="" class="img-santiagodeleon-footer">
                         </div>
                         <div class="footer-text-center-container">
                             <p class="text-footer-center">Copyright ® 2019 Derechos Reservados <br> Desarrollado con 🖤 por <img src="http://dev-analiticom.com/santiagodeleon/wp-content/uploads/2019/05/Analiticom-logo.png" alt="" class="img-analiticom"></p>
