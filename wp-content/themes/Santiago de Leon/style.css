@@ -582,6 +582,10 @@ div#instalacion{
     height: 82vh;
 }
 
+div#first-slider-home-id{
+    height: 80vh;
+}
+
 div#instalacion .et_pb_text_overlay_wrapper{
     top: 25px;
 }
