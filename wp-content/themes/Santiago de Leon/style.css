@@ -371,7 +371,30 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
     }
 
     .image-and-text-container {
-        display: contents;
+        display: block;
+    }
+
+    .medico-destacado-container,
+    .mercado-container{
+        width: 50% !important;
+    }
+
+    .nueva-infraestructura-container,
+    .paciente-primero-container,
+    .servicios-integrados-container {
+        width: 33% !important;
+    }
+    
+    .first-container-image,
+    .second-container-image{
+        display: inline-flex;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .et_pb_gutters1 .et_pb_row_1-5_1-5_3-5>.et_pb_column.et_pb_column_1_5, .et_pb_gutters1 .et_pb_row_3-5_1-5_1-5>.et_pb_column.et_pb_column_1_5, .et_pb_gutters1 .et_pb_row_5col>.et_pb_column.et_pb_column_1_5, .et_pb_gutters1.et_pb_row_1-5_1-5_3-5>.et_pb_column.et_pb_column_1_5, .et_pb_gutters1.et_pb_row_3-5_1-5_1-5>.et_pb_column.et_pb_column_1_5, .et_pb_gutters1.et_pb_row_5col>.et_pb_column.et_pb_column_1_5{
+        width: 50% !important;
+        padding: 5px;
     }
 
     .et_pb_row.et_pb_row_6.et_pb_row_4col{
@@ -549,3 +572,27 @@ p.text-after-404-number{
     color: #fff;
     line-height: 30px;
 }
+
+
+div#page-container{
+    padding-top: 111px !important;
+}
+
+div#instalacion{
+    height: 82vh;
+}
+
+div#instalacion .et_pb_text_overlay_wrapper{
+    top: 25px;
+}
+
+.et_pb_scroll_top.et-pb-icon{
+    bottom: 125px;
+    border-radius: 20px !important;
+    background-color: rgba(81,48,129,0.5) !important;
+    right: 10px !important;
+}
+
+/* div#sobre .et_pb_module.et_pb_text{
+    width: 260px;
+} */
