@@ -27,10 +27,10 @@ img.img-container{
 
 /*Slider style*/
 
-.et_pb_column.et_pb_column_4_4.et_pb_column_0.et_pb_css_mix_blend_mode_passthrough.et-last-child{
+/* .et_pb_column.et_pb_column_4_4.et_pb_column_0.et_pb_css_mix_blend_mode_passthrough.et-last-child{
     position: relative;
     top: 40px;
-}
+} */
 
 div.et_pb_slide.et_pb_slide_1.et_pb_bg_layout_dark.et_pb_media_alignment_center.et-pb-active-slide .et_pb_slide_description .et_pb_slide_title {
     font-size: 30px;
@@ -341,6 +341,38 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
 
 /* Responsive */
 
+@media only screen and (min-device-width: 1600px){
+
+    div#sobre .et_pb_row {
+        position: relative;
+        width: 90%;
+        max-width: 1400px;
+        margin: auto;
+     }
+     p.text-container {
+        text-align: center;
+        padding: 10px !important;
+     }
+
+     div#doctoresImgId img{
+         width: 1000px !important;
+     }
+
+    div#servicios .et_pb_row_8 {
+        width: 78%;
+        max-width: 2560px;
+     }
+
+     div.second-section-box-shadow-css{
+        background-color: #ebebeb;
+        width: 100% !important;
+        max-width: 94% !important;
+     }
+
+     div.second-section-box-shadow-css .et_pb_text_inner {
+        margin: 0px 45px 0px 0px !important;
+     }
+}
 
 @media only screen and (min-device-width: 1920px){
     /* div#instalacion .et_pb_text_overlay_wrapper {
@@ -392,6 +424,37 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
 }
 
 @media screen and (max-width: 991px){
+
+    li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-97,
+    li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-98,
+    li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-99,
+    li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
+        display: none;
+    }
+
+    li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-92 a{
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .et_pb_module.et_pb_image.et_pb_image_9:after{
+        content: "Medicina Ocupacional";
+        position: relative;
+        color: #fff;
+        font-size: 15px;
+        text-align: center;
+        display: block;
+        bottom: 40px;
+        line-height: 15px;
+    }
+
+    .et_pb_column.et_pb_column_4_4.et_pb_column_9.et_pb_css_mix_blend_mode_passthrough.et-last-child {
+        margin: 40px 0px 40px 0px;
+    }
+
+    .et_pb_module.et_pb_text.et_pb_text_0.et_pb_bg_layout_light.et_pb_text_align_left {
+        height: 130px;
+    }
 
     div.second-section-box-shadow-css .et_pb_module {
         border-right: none;
@@ -457,9 +520,16 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
 
     .et_pb_column.et_pb_column_1_4.et_pb_column_10.et_pb_css_mix_blend_mode_passthrough,
     .et_pb_column.et_pb_column_1_4.et_pb_column_12.et_pb_css_mix_blend_mode_passthrough{
-        margin: 0 0 100px 0px !important;
+        margin: 0 0 40px 0px !important;
     }
 
+    div#servicios .et_pb_column{
+        display: -webkit-inline-box;
+    }
+
+    div#servicios .et_pb_module.et_pb_image{
+        margin: 5px;
+    }
 
     .extra-footer-container {
         display: block;
