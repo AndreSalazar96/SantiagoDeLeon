@@ -341,6 +341,207 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
 
 /* Responsive */
 
+@media (max-width: 1100px) and (min-width: 981px){
+    .et_pb_number_counter_1.et_pb_number_counter h3, 
+    .et_pb_number_counter_0.et_pb_number_counter h3,
+    .et_pb_number_counter_2.et_pb_number_counter h3,
+    .et_pb_number_counter_3.et_pb_number_counter h3{
+        margin-top: 45%;
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 821px) {  
+    .et_pb_number_counter_1.et_pb_number_counter h3, 
+    .et_pb_number_counter_0.et_pb_number_counter h3,
+    .et_pb_number_counter_2.et_pb_number_counter h3,
+    .et_pb_number_counter_3.et_pb_number_counter h3{
+        margin-top: 16%;
+    }
+    img.img-santiagodeleon-footer {
+        width: 30%;
+    }
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 767px){
+
+    img.img-santiagodeleon-footer {
+        width: 30%;
+    }
+
+    .et_pb_row.et_pb_row_8.et_pb_gutters1.et_pb_row_5col {
+        display: block !important;
+        width: 68% !important;
+    } 
+
+    .et_pb_module.et_pb_image.et_pb_image_2:after {
+        font-size: 13px;
+    }
+
+    .et_pb_number_counter_1.et_pb_number_counter h3, 
+    .et_pb_number_counter_0.et_pb_number_counter h3,
+    .et_pb_number_counter_2.et_pb_number_counter h3,
+    .et_pb_number_counter_3.et_pb_number_counter h3{
+        font-size: 16px !important;
+        margin-top: 40% !important;
+    }
+}
+
+
+@media only screen and (min-device-width: 1280px){
+    .et_pb_row.et_pb_row_8.et_pb_gutters1.et_pb_row_5col {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+     }
+}
+
+@media only screen and (min-device-width:768px){
+
+    img.img-santiagodeleon-footer {
+        width: 30%;
+    }
+    .et_pb_row.et_pb_row_1.second-section-box-shadow-css.et_pb_row_4col {
+        padding: 50px 100px 30px 100px !important;
+    }
+
+    .et_pb_column.et_pb_column_1_2.et_pb_column_5.et_pb_css_mix_blend_mode_passthrough{
+        padding: 0px 100px 0px 100px;
+    }
+    .et_pb_row_8 {
+        width: 70% !important;
+        max-width: 2560px;
+    }
+
+    .et_pb_column.et_pb_column_4_4.et_pb_column_14.et_pb_css_mix_blend_mode_passthrough.et-last-child{
+        display: contents !important;
+    }
+}
+
+@media only screen and (min-device-width: 1366px){
+    .et_pb_column.et_pb_column_1_2.et_pb_column_6.et_pb_css_mix_blend_mode_passthrough {
+        top: 0 !important;
+    }
+    .et_pb_row.et_pb_row_2 {
+        padding: 0 !important;
+    }
+
+    .et_pb_module.et_pb_text.et_pb_text_0.et_pb_bg_layout_light.et_pb_text_align_left {
+        height: 193px !important;
+    }
+}
+
+@media only screen and (min-device-width:1024px){
+    .et_pb_row.et_pb_row_1.second-section-box-shadow-css.et_pb_row_4col {
+        padding: 30px 30px 30px 30px !important;
+    }
+
+    .horario-containers-time{
+        line-height: 15px;
+    }
+    .second-container-horario.santiagodeleon{
+        line-height: 17px;
+    }
+
+    p.second-text-fisrt-container-horario{
+        line-height: 16px;
+    }
+
+    p.text-dias-semana{
+        line-height: 20px;
+    }
+
+    .et_pb_module.et_pb_text.et_pb_text_0.et_pb_bg_layout_light.et_pb_text_align_left {
+        height: 231px;
+    }
+
+    .et_pb_column.et_pb_column_1_2.et_pb_column_5.et_pb_css_mix_blend_mode_passthrough {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .et_pb_row.et_pb_row_2{
+        padding: 10px 50px 10px 50px;
+    }
+
+    .et_pb_column.et_pb_column_1_2.et_pb_column_6.et_pb_css_mix_blend_mode_passthrough{
+        top: 22px;
+    }
+
+    .et_pb_row_8 {
+        width: 85% !important;
+        max-width: 2560px;
+    }
+    .et_pb_gutters1 .et_pb_column_1_5, .et_pb_gutters1.et_pb_row .et_pb_column_1_5 {
+        width: 18%;
+    }
+
+    .et_pb_gutters1 .et_pb_column, .et_pb_gutters1.et_pb_row .et_pb_column {
+        margin-right: 14px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    img.img-santiagodeleon-footer {
+        width: 20% !important;
+    }
+}
+
+@media (max-width: 980px){
+    .et_pb_row_6.et_pb_row {
+        margin-top: -30px!important;
+        margin-right: auto!important;
+        margin-left: auto!important;
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 500px){
+    .et_pb_number_counter_1.et_pb_number_counter h3, 
+    .et_pb_number_counter_0.et_pb_number_counter h3,
+    .et_pb_number_counter_2.et_pb_number_counter h3,
+    .et_pb_number_counter_3.et_pb_number_counter h3{
+        font-size: 20px !important;
+        margin-top: 35% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    img.img-santiagodeleon-footer {
+        width: 30%;
+    }
+
+    .et_pb_row_8 {
+        width: 51% !important;
+        max-width: 2560px;
+        display: grid !important;
+    }
+
+    .image-and-text-container {
+        display: inline-flex !important;
+     }
+     .et_pb_column.et_pb_column_1_2.et_pb_column_6.et_pb_css_mix_blend_mode_passthrough {
+        top: 40px !important;
+     }
+     .et_pb_row.et_pb_row_6.et_pb_row_4col {
+        position: relative;
+        width: 100%;
+        max-width: 1080px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+     }
+
+     .image-and-text-container.mobile{
+         width: 100%;
+     }
+    
+}
+
+
+
+
+
 @media only screen and (min-device-width: 1600px){
 
     div#sobre .et_pb_row {
@@ -378,10 +579,7 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
     /* div#instalacion .et_pb_text_overlay_wrapper {
         right: 412px !important;
      } */
-     .et_pb_row.et_pb_row_3.et_pb_equal_columns {
-        position: relative;
-        top: 150px !important;
-     }
+
      .et-pb-controllers {
         position: absolute;
         z-index: 1000000;
@@ -392,15 +590,24 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
         text-align: center;
      }
 
+    div#first-slider-home-id .et_pb_row.et_pb_row_0 {
+        position: relative;
+        top: 0;
+     }
+     .et_pb_row.et_pb_row_3.et_pb_equal_columns {
+        position: relative;
+        top: 0 !important;
+     }
      div#servicios .et_pb_row_8 {
-        width: 64%;
-        max-width: 2560px;
+        width: 85% !important;
+        max-width: 2560px !important;
+        display: flex !important;
+        justify-content: center !important;
      }
 
-     div#first-slider-home-id .et_pb_row.et_pb_row_0 {
-        position: relative;
-        top: 100px;
-    }
+     .et_pb_gutters1 .et_pb_column_1_5, .et_pb_gutters1.et_pb_row .et_pb_column_1_5 {
+        width: 14%;
+     }
 
 }
 
@@ -421,9 +628,38 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
      .et_pb_row.et_pb_row_1.second-section-box-shadow-css.et_pb_row_4col .et_pb_module.et_pb_bg_layout_light.et_pb_text_align_left{
         width: 250px !important;
      }
+
+     div.second-section-box-shadow-css .et_pb_module{
+        border-right: none !important;
+    }
+
+    .et_pb_row.et_pb_row_1.second-section-box-shadow-css.et_pb_row_4col {
+        padding: 50px 0px 30px 0px !important;
+    }
+
+    .et_pb_gutters3 .et_pb_column, .et_pb_gutters3.et_pb_row .et_pb_column {
+        margin-right: 4%;
+    }
+
+    .fisrt-container-horario.santiagodeleon,
+    .second-container-horario.santiagodeleon,
+    .third-container-horario.santiagodeleon,
+    .fourth-container-horario.santiagodeleon{
+        width: 85%;
+    }
+    .et_pb_gutters1 .et_pb_column_1_5, .et_pb_gutters1.et_pb_row .et_pb_column_1_5 {
+        width: 18% !important;
+    }
 }
 
+
+
+
 @media screen and (max-width: 991px){
+
+    img.img-analiticom{
+        width: 10%;
+    }
 
     li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-97,
     li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-98,
@@ -514,9 +750,9 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
         padding: 5px;
     }
 
-    .et_pb_row.et_pb_row_6.et_pb_row_4col{
+    /* .et_pb_row.et_pb_row_6.et_pb_row_4col{
         padding: 0px 0px 90px 0px;
-    }
+    } */
 
     .et_pb_column.et_pb_column_1_4.et_pb_column_10.et_pb_css_mix_blend_mode_passthrough,
     .et_pb_column.et_pb_column_1_4.et_pb_column_12.et_pb_css_mix_blend_mode_passthrough{
@@ -708,9 +944,9 @@ p.text-after-404-number{
 }
 
 
-div#page-container{
+/* div#page-container{
     padding-top: 111px !important;
-}
+} */
 
 
 div#instalacion .et_pb_text_overlay_wrapper{
@@ -722,4 +958,9 @@ div#instalacion .et_pb_text_overlay_wrapper{
     border-radius: 20px !important;
     background-color: rgba(81,48,129,0.5) !important;
     right: 10px !important;
+}
+
+
+.et_pb_row_5.et_pb_row{
+    padding-top: 40px;
 }
