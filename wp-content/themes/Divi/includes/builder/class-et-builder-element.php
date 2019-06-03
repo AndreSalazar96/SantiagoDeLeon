@@ -1874,9 +1874,10 @@ class ET_Builder_Element {
 			}
 
 			foreach ( preg_grep( '/(transform_)/', array_keys( $this->props ) ) as $index => $key ) {
-				if ( strpos( 'link', $key ) !== false ) {
+				if ( strpos( $key, 'link' ) !== false || strpos( $key, 'hover' ) !== false ) {
 					continue;
 				}
+
 				if ( ! empty( $this->props[ $key ] ) ) {
 					$animation_style = 'transformAnim';
 					break;
@@ -11180,7 +11181,7 @@ class ET_Builder_Element {
 
 			if ( ! empty( $elements['transform'] ) || ! empty( $elements['origin'] ) ) {
 
-				if ( ! empty( $animationType ) && 'none' !== $animationType && 'fade' !== $animationType ) {
+				if ( 'hover' !== $view && ! empty( $animationType ) && 'none' !== $animationType && 'fade' !== $animationType ) {
 
 					$transformedAnimation = $class->transformedAnimation( $animationType, $elements, $function_name, $device );
 

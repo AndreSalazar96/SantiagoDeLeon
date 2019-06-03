@@ -21,7 +21,7 @@ p.text-container{
     text-align: center;
 }
 img.img-container{
-    margin: 10px auto;
+    margin: 0px 15px 0px 15px !important;
     display: block;
 }
 
@@ -89,8 +89,21 @@ span.percent-value{
 }
 
 div.second-section-box-shadow-css .et_pb_module{
+    /* border-right: 2px solid #a6a1c0; */
+    margin-left: 0px;
+}
+
+.et_pb_slide.et_pb_slide_2.et_pb_bg_layout_dark.et_pb_media_alignment_center.et_pb_slider_with_text_overlay.et-pb-active-slide{
+    padding-left: 0 !important;
+}
+
+
+.et_pb_row.et_pb_row_1.second-section-box-shadow-css.et_pb_equal_columns.et_pb_row_4col .et_pb_column{
     border-right: 2px solid #a6a1c0;
-    margin-left: 20px;
+}
+
+.et_pb_column.et_pb_column_1_4.et_pb_column_4.et_pb_css_mix_blend_mode_passthrough{
+    border: none !important;
 }
 
 
@@ -99,7 +112,7 @@ div.second-section-box-shadow-css .et_pb_module{
 }
 
 .fisrt-container-horario.santiagodeleon {
-    line-height: 7px;
+    /* line-height: 7px; */
     color: #513081 !important;
 }
 
@@ -111,10 +124,10 @@ div.second-section-box-shadow-css .et_pb_module{
     line-height: 15px;
 }
 
-
+/* 
 .et_pb_module.et_pb_text.et_pb_text_0.et_pb_bg_layout_light.et_pb_text_align_left{
-    height: 193px;
-}
+    height: 350px !important;
+} */
 
 
 img.icon-reloj,
@@ -421,20 +434,27 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
 
 @media only screen and (min-device-width: 1366px){
     .et_pb_column.et_pb_column_1_2.et_pb_column_6.et_pb_css_mix_blend_mode_passthrough {
-        top: 0 !important;
+        top: 36px !important;
     }
     .et_pb_row.et_pb_row_2 {
         padding: 0 !important;
     }
-
+/* 
     .et_pb_module.et_pb_text.et_pb_text_0.et_pb_bg_layout_light.et_pb_text_align_left {
-        height: 193px !important;
-    }
+        height: 350px !important;
+    } */
 }
 
 @media only screen and (min-device-width:1024px){
+
+/* 
+    div.second-section-box-shadow-css .et_pb_module{
+        border: none !important;
+    } */
+
     .et_pb_row.et_pb_row_1.second-section-box-shadow-css.et_pb_row_4col {
-        padding: 30px 30px 30px 30px !important;
+        /* padding: 30px 30px 30px 30px !important; */
+        padding: 40px !important;
     }
 
     .horario-containers-time{
@@ -452,9 +472,9 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
         line-height: 20px;
     }
 
-    .et_pb_module.et_pb_text.et_pb_text_0.et_pb_bg_layout_light.et_pb_text_align_left {
+    /* .et_pb_module.et_pb_text.et_pb_text_0.et_pb_bg_layout_light.et_pb_text_align_left {
         height: 231px;
-    }
+    } */
 
     .et_pb_column.et_pb_column_1_2.et_pb_column_5.et_pb_css_mix_blend_mode_passthrough {
         padding: 0px 0px 0px 0px;
@@ -557,6 +577,7 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
 
      div#doctoresImgId img{
          width: 1000px !important;
+         margin-top: 17px!important;
      }
 
     div#servicios .et_pb_row_8 {
@@ -634,7 +655,8 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
     }
 
     .et_pb_row.et_pb_row_1.second-section-box-shadow-css.et_pb_row_4col {
-        padding: 50px 0px 30px 0px !important;
+        /* padding: 50px 0px 30px 0px !important; */
+        padding: 30px !important;
     }
 
     .et_pb_gutters3 .et_pb_column, .et_pb_gutters3.et_pb_row .et_pb_column {
@@ -656,6 +678,23 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
 
 
 @media screen and (max-width: 991px){
+
+    img.img-container{
+        margin:10px auto !important;
+        display: block !important;
+    }
+
+    div#first-slider-home-id{
+        height: calc(100vh - 78px);
+    }
+
+    .et_pb_module.et_pb_text.et_pb_text_8.et_pb_bg_layout_light.et_pb_text_align_left{
+        padding: 35px;
+    }
+
+    .image-and-text-container.mobile{
+        padding: 0px 20px 0px 20px;
+    }
 
     img.img-analiticom{
         width: 10%;
@@ -688,9 +727,9 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
         margin: 40px 0px 40px 0px;
     }
 
-    .et_pb_module.et_pb_text.et_pb_text_0.et_pb_bg_layout_light.et_pb_text_align_left {
+    /* .et_pb_module.et_pb_text.et_pb_text_0.et_pb_bg_layout_light.et_pb_text_align_left {
         height: 130px;
-    }
+    } */
 
     div.second-section-box-shadow-css .et_pb_module {
         border-right: none;
@@ -722,6 +761,12 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100{
     .mercado-container{
         width: 50% !important;
     }
+
+    .medico-destacado-container{
+        margin: 0px 15px 0px 15px !important;
+
+    }
+
 
     .nueva-infraestructura-container,
     .paciente-primero-container,
@@ -963,4 +1008,7 @@ div#instalacion .et_pb_text_overlay_wrapper{
 
 .et_pb_row_5.et_pb_row{
     padding-top: 40px;
+}
+.et_pb_row.et_pb_row_2.second-section-box-shadow-css.et_pb_equal_columns.et_pb_row_4col{
+    padding: 35px !important;
 }

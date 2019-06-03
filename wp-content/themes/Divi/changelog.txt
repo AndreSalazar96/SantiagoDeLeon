@@ -1,3 +1,16 @@
+version 3.23.3 ( updated 05-24-2019 )
+- Fixed issue where you couldn't hex color on background gradient color start and end.
+- Fixed PHP warning on Library due to incorrect translation on closed anchor tag.
+- Fixed WooCommerce PhotoSwipe gallery z-index position.
+	* css/main-styles.css
+	* includes/builder/frontend-builder/bundle.js
+	* includes/builder/languages/ja.po
+
+version 3.23.2 ( updated 05-23-2019 )
+- Fixed animations on modules that had transforms options on hover.
+	* includes/builder/class-et-builder-element.php
+	* includes/builder/frontend-builder/bundle.js
+
 version 3.23.1 ( updated 05-22-2019 )
 - Fix issue where animations would be triggered immediately on page load instead of when scrolled into view.
 	* includes/builder/scripts/frontend-builder-scripts.js
